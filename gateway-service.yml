@@ -5,7 +5,3 @@ zuul:
       path: /account/**
       sensitiveHeaders:
       serviceId: account-service
-    customer:
-      path: /customer/**
-      sensitiveHeaders:
-      serviceId: customer-service
