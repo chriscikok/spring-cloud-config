@@ -1,0 +1,7 @@
+zuul:
+  prefix: /api
+  routes:
+    account:
+      path: /account/**
+      sensitiveHeaders:
+      serviceId: account-service
